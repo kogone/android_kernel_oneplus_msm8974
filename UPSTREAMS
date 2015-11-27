@@ -1,0 +1,22 @@
+[core]
+        repositoryformatversion = 0
+        filemode = true
+[remote "ak"]
+        url = git@github.com:anarkia1976/AK-OnePone-Reborn-CAF.git
+        fetch = +refs/heads/cm-12.1-caf:refs/remotes/ak/cm-12.1-caf
+[remote "yoshi"]
+        url = git@github.com:YoshiShaPow/android_kernel_oneplus_msm8974.git
+        fetch = +refs/heads/cm-12.1-caf:refs/remotes/yoshi/cm-12.1-caf
+[remote "sultan"]
+        url = git@github.com:sultanxda/android_kernel_oneplus_msm8974.git
+        fetch = +refs/heads/cm-12.1-caf:refs/remotes/sultan/cm-12.1-caf
+[remote "github"]
+        url = https://github.com/kogone/android_kernel_oneplus_msm8974
+        fetch = +refs/heads/*:refs/remotes/github/*
+        projectname = android_kernel_oneplus_msm8974
+[remote "lab"]
+        url = ssh://git@66.228.39.222:17403/kogone/android_kernel_oneplus_msm8974.git
+        fetch = +refs/heads/*:refs/remotes/lab/*
+[branch "cm-12.1-caf"]
+        remote = lab
+        merge = refs/heads/cm-12.1-caf
